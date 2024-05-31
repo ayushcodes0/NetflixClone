@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 35);
+    font-family: "Poppins";
+    border: border-box;
+}
+.main{
+    width: 100%;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom -100px;
+    position: relative;
+    overflow: hidden;
+}
+.main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 1, 1, 0.697);
+
+}
+.nav{
+    max-width: 80vw;
+    margin: auto;
+    height: 100px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav > img{
+    height: 50px;
+    width: 200px;
+    object-fit: contain;
+    background: transparent;  
+}
+.lang{
+    height: 30%;
+    width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.286);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px ;
+    margin-top: 26px;
+    position: relative;
+    opacity: 0.8;
+
+}
+i{
+    margin: 8px;
+    background: transparent;
+}
+.home .getstarted i{
+    font-size: 22px;
+    margin: 10px;
+}
+
+.lang > .language{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.nav>button{
+    background-color: rgb(229, 4, 4);
+    height: 30px;
+    width: 75px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+    margin-top: 26px;
+    
+}
+.home{
+    position: relative;
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.home>h1{
+    margin-top: 160px;
+    font-size: 45px;
+    background: transparent;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.home>h2{
+    font-weight: 300;
+    margin-top: 10px;
+    background: transparent;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+.home>h3{
+    font-weight: 300;
+    margin-top: 20px;
+    background: transparent;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.home > .inputtag{
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 380px;
+    margin-top: 20px;
+    opacity: .8;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-left: 12px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.home > .getstarted{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(229, 4, 4);
+    margin-right:10px;
+}
+.main2{
+    margin-top: 8px;
+    padding-top: 75px;
+    background-color: rgba(0, 0, 0, 0.84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+.main2 > .texts{
+    width: 43%;
+    color: white;
+    background: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.main2 > .texts > h1{
+    font-size: 45px;
+    background: transparent;
+
+}
+.main2 > .texts > h2{
+    font-weight: 300;
+    background: transparent;
+}
+.main2 > .sideimage{
+    background: transparent;
+
+}
+.part3 .sideimage > img{
+    background: transparent;
+}
+.faq{
+    background-color: rgba(0, 0, 0, 0.84);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq > h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 60px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+.faq .faqs{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.faqs > p{
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.faqs .plus{
+    font-size: 60px;
+    background: transparent;
+    font-weight: 100;
+}
+.faq h2{
+    background: transparent;
+    color: white;
+    font-weight: 300;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.faqs p{
+    background: transparent;
+}
+.faq h2{
+    padding-left: 20px;
+}
+.faqs:hover{
+    background-color: rgb(65, 63, 63);
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(189, 5, 5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.faq .home button:hover{
+    background-color: rgb(189, 5, 5);
+    transition: 0.5s;
+}
+.main .home button:hover{
+    background-color: rgb(189, 5, 5);
+    transition: 0.5s;
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.694);
+}
+#lastpart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+    /* margin: auto; */
+}
+#lastpart a{
+    text-decoration: none;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.footer-item a{
+    background-color: black;
+}
+@media screen and (max-width:950px){
+    #lastpart{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+
